@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* contenedor del teclado  */
+
+.teclado{
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.key{
+    border: none;
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s;
+}
+
+.key:hover{
+    background: #444;
+}
+
+.especial{
+
+    background: #555;
+}
+
+.especial:hover{
+    background: #666;
+}
+
+.espacio{
+    flex: 1;
+    padding: 10px 80px;
+    background: #444;
+
+
+}
